@@ -11,7 +11,7 @@ interface Props {
 const ImagePopup: React.FC<Props> = ({ url, setIsVisible, title }) => {
   return (
     <div className={styles.wrapper} onClick={() => setIsVisible(false)}>
-      <div>
+      <div className={styles.imgWrapper}>
         <img src={url} loading="lazy" alt={title} />
       </div>
     </div>

@@ -11,3 +11,14 @@
     justify-content: center;
     align-items: center;
 }
+
+.imgWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.imgWrapper img {
+    margin: 0 auto;
+    width: 70%;
+    aspect-ratio: 1/1;
+}
