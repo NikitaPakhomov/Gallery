@@ -1,0 +1,5 @@
+.wrapper {}
+
+select::after {
+    height: 20px;
+}

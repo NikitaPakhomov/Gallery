@@ -1,0 +1,24 @@
+.wrapper {
+    all: unset;
+    cursor: pointer;
+    background-color: #fcfcfc;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    min-width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper:hover {
+    background-color: #FCFDD6;
+}
+
+.wrapper:active {
+    background-color: #FCFD10;
+}
+
+.active {
+    background-color: #FCFD10;
+}
